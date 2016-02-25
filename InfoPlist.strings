@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  ShauMapMobile
+
+  Created on 23/02/2015.
+  Copyright (c) 2015 SHAU. All rights reserved.
+*/
+"CFBundleDisplayName" = "Travel Buddy";
+"CFBundleName" = "Travel Buddy";

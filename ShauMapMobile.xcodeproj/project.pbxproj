@@ -1,0 +1,833 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		502B24291AB45D6E00907076 /* ic_bakerloo.png in Resources */ = {isa = PBXBuildFile; fileRef = 502B24161AB45D6E00907076 /* ic_bakerloo.png */; };
+		502B242A1AB45D6E00907076 /* ic_britishrail.png in Resources */ = {isa = PBXBuildFile; fileRef = 502B24171AB45D6E00907076 /* ic_britishrail.png */; };
+		502B242B1AB45D6E00907076 /* ic_bus.png in Resources */ = {isa = PBXBuildFile; fileRef = 502B24181AB45D6E00907076 /* ic_bus.png */; };
+		502B242C1AB45D6E00907076 /* ic_central.png in Resources */ = {isa = PBXBuildFile; fileRef = 502B24191AB45D6E00907076 /* ic_central.png */; };
+		502B242D1AB45D6E00907076 /* ic_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 502B241A1AB45D6E00907076 /* ic_circle.png */; };
+		502B242E1AB45D6E00907076 /* ic_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 502B241B1AB45D6E00907076 /* ic_delete.png */; };
+		502B242F1AB45D6E00907076 /* ic_district.png in Resources */ = {isa = PBXBuildFile; fileRef = 502B241C1AB45D6E00907076 /* ic_district.png */; };
+		502B24301AB45D6E00907076 /* ic_dlr.png in Resources */ = {isa = PBXBuildFile; fileRef = 502B241D1AB45D6E00907076 /* ic_dlr.png */; };
+		502B24311AB45D6E00907076 /* ic_hailandride.png in Resources */ = {isa = PBXBuildFile; fileRef = 502B241E1AB45D6E00907076 /* ic_hailandride.png */; };
+		502B24321AB45D6E00907076 /* ic_hammersmithcity.png in Resources */ = {isa = PBXBuildFile; fileRef = 502B241F1AB45D6E00907076 /* ic_hammersmithcity.png */; };
+		502B24331AB45D6E00907076 /* ic_jubilee.png in Resources */ = {isa = PBXBuildFile; fileRef = 502B24201AB45D6E00907076 /* ic_jubilee.png */; };
+		502B24341AB45D6E00907076 /* ic_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 502B24211AB45D6E00907076 /* ic_map.png */; };
+		502B24351AB45D6E00907076 /* ic_metropolitan.png in Resources */ = {isa = PBXBuildFile; fileRef = 502B24221AB45D6E00907076 /* ic_metropolitan.png */; };
+		502B24361AB45D6E00907076 /* ic_northern.png in Resources */ = {isa = PBXBuildFile; fileRef = 502B24231AB45D6E00907076 /* ic_northern.png */; };
+		502B24371AB45D6E00907076 /* ic_piccadilly.png in Resources */ = {isa = PBXBuildFile; fileRef = 502B24241AB45D6E00907076 /* ic_piccadilly.png */; };
+		502B24381AB45D6E00907076 /* ic_postcode.png in Resources */ = {isa = PBXBuildFile; fileRef = 502B24251AB45D6E00907076 /* ic_postcode.png */; };
+		502B24391AB45D6E00907076 /* ic_riverboat.png in Resources */ = {isa = PBXBuildFile; fileRef = 502B24261AB45D6E00907076 /* ic_riverboat.png */; };
+		502B243A1AB45D6E00907076 /* ic_save.png in Resources */ = {isa = PBXBuildFile; fileRef = 502B24271AB45D6E00907076 /* ic_save.png */; };
+		502B243B1AB45D6E00907076 /* ic_victoria.png in Resources */ = {isa = PBXBuildFile; fileRef = 502B24281AB45D6E00907076 /* ic_victoria.png */; };
+		502B243D1AB464E100907076 /* ic_undefined.png in Resources */ = {isa = PBXBuildFile; fileRef = 502B243C1AB464E100907076 /* ic_undefined.png */; };
+		502B243F1AB48D6700907076 /* ic_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 502B243E1AB48D6700907076 /* ic_disabled.png */; };
+		502B24421AB4B19600907076 /* MyLocationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 502B24411AB4B19600907076 /* MyLocationTableViewCell.m */; };
+		504EC80F1A98AC9500948853 /* ShauAlertsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 504EC80E1A98AC9500948853 /* ShauAlertsViewController.m */; };
+		507C91381A9B73F000CD92CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 507C91371A9B73F000CD92CA /* InfoPlist.strings */; };
+		507C913C1A9B7D2F00CD92CA /* SHAU_SPLASH.png in Resources */ = {isa = PBXBuildFile; fileRef = 507C913B1A9B7D2F00CD92CA /* SHAU_SPLASH.png */; };
+		509AAE921A84543F00003AC5 /* ShauLatLng.m in Sources */ = {isa = PBXBuildFile; fileRef = 509AAE911A84543F00003AC5 /* ShauLatLng.m */; };
+		50A2A46C1A99023F00094CDA /* RouteAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A2A46B1A99023F00094CDA /* RouteAlert.m */; };
+		50A2A46E1A99324900094CDA /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 50A2A46D1A99324900094CDA /* Settings.bundle */; };
+		50A2A4711A996F8D00094CDA /* TubeLineParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A2A4701A996F8D00094CDA /* TubeLineParser.m */; };
+		50A2A4731A99734200094CDA /* TubeLineStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A2A4721A99734200094CDA /* TubeLineStatus.m */; };
+		50AEBDC31A82CA0B00969673 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AEBDC21A82CA0B00969673 /* main.m */; };
+		50AEBDC61A82CA0B00969673 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AEBDC51A82CA0B00969673 /* AppDelegate.m */; };
+		50AEBDC91A82CA0B00969673 /* ShauMapMobile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50AEBDC71A82CA0B00969673 /* ShauMapMobile.xcdatamodeld */; };
+		50AEBDCC1A82CA0B00969673 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AEBDCB1A82CA0B00969673 /* MapViewController.m */; };
+		50AEBDCF1A82CA0B00969673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50AEBDCD1A82CA0B00969673 /* Main.storyboard */; };
+		50AEBDD11A82CA0B00969673 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50AEBDD01A82CA0B00969673 /* Images.xcassets */; };
+		50AEBDD41A82CA0B00969673 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50AEBDD21A82CA0B00969673 /* LaunchScreen.xib */; };
+		50AEBDE01A82CA0B00969673 /* ShauMapMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AEBDDF1A82CA0B00969673 /* ShauMapMobileTests.m */; };
+		50AEBDEB1A82CA5900969673 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AEBDEA1A82CA5900969673 /* AVFoundation.framework */; };
+		50AEBDED1A82CA7D00969673 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AEBDEC1A82CA7D00969673 /* CoreData.framework */; };
+		50AEBDEF1A82CABE00969673 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AEBDEE1A82CABE00969673 /* CoreLocation.framework */; };
+		50AEBDF11A82CAC500969673 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AEBDF01A82CAC500969673 /* CoreText.framework */; };
+		50AEBDF31A82CB3300969673 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AEBDF21A82CB3300969673 /* GLKit.framework */; };
+		50AEBDF51A82CB3A00969673 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AEBDF41A82CB3A00969673 /* ImageIO.framework */; };
+		50AEBDF71A82CB6800969673 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AEBDF61A82CB6800969673 /* libc++.dylib */; };
+		50AEBDF91A82CB9300969673 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AEBDF81A82CB9300969673 /* libicucore.dylib */; };
+		50AEBDFB1A82CBA800969673 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AEBDFA1A82CBA800969673 /* libz.dylib */; };
+		50AEBDFD1A82CBBF00969673 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AEBDFC1A82CBBF00969673 /* OpenGLES.framework */; };
+		50AEBDFF1A82CBD200969673 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AEBDFE1A82CBD200969673 /* QuartzCore.framework */; };
+		50AEBE011A82CBDB00969673 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AEBE001A82CBDB00969673 /* SystemConfiguration.framework */; };
+		50AEBE081A82D47400969673 /* ShauKmlGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AEBE071A82D47400969673 /* ShauKmlGeometry.m */; };
+		50AEBE0A1A82EB6800969673 /* ShauKmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AEBE091A82EB6800969673 /* ShauKmlParser.m */; };
+		50C1C94E1A8668630057CF91 /* ShauAppInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C1C94D1A8668630057CF91 /* ShauAppInfoViewController.m */; };
+		50D337DE1AB2368E00986DEE /* ic_action_search.png in Resources */ = {isa = PBXBuildFile; fileRef = 50D337DD1AB2368E00986DEE /* ic_action_search.png */; };
+		50D337E11AB2380400986DEE /* ShauSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D337E01AB2380400986DEE /* ShauSearchViewController.m */; };
+		50D337E51AB2572C00986DEE /* ShauSearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D337E41AB2572C00986DEE /* ShauSearchResultsViewController.m */; };
+		50D337E81AB268A000986DEE /* LocationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D337E71AB268A000986DEE /* LocationTableViewCell.m */; };
+		50E217511A9A900D00C26F32 /* ShauSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E217501A9A900D00C26F32 /* ShauSettingsViewController.m */; };
+		50E2175B1A9AC21800C26F32 /* ic_action_error.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E217581A9AC21800C26F32 /* ic_action_error.png */; };
+		50E2175C1A9AC21800C26F32 /* ic_action_help.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E217591A9AC21800C26F32 /* ic_action_help.png */; };
+		50E2175D1A9AC21800C26F32 /* ic_action_settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E2175A1A9AC21800C26F32 /* ic_action_settings.png */; };
+		568C91C7E629E2A455B55BCC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D87279D369D538BC99257282 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50AEBDDA1A82CA0B00969673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50AEBDB51A82CA0A00969673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50AEBDBC1A82CA0A00969673;
+			remoteInfo = ShauMapMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4626C75C1946A5A2A62C7150 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		502B24161AB45D6E00907076 /* ic_bakerloo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_bakerloo.png; path = images/ic_bakerloo.png; sourceTree = "<group>"; };
+		502B24171AB45D6E00907076 /* ic_britishrail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_britishrail.png; path = images/ic_britishrail.png; sourceTree = "<group>"; };
+		502B24181AB45D6E00907076 /* ic_bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_bus.png; path = images/ic_bus.png; sourceTree = "<group>"; };
+		502B24191AB45D6E00907076 /* ic_central.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_central.png; path = images/ic_central.png; sourceTree = "<group>"; };
+		502B241A1AB45D6E00907076 /* ic_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_circle.png; path = images/ic_circle.png; sourceTree = "<group>"; };
+		502B241B1AB45D6E00907076 /* ic_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_delete.png; path = images/ic_delete.png; sourceTree = "<group>"; };
+		502B241C1AB45D6E00907076 /* ic_district.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_district.png; path = images/ic_district.png; sourceTree = "<group>"; };
+		502B241D1AB45D6E00907076 /* ic_dlr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_dlr.png; path = images/ic_dlr.png; sourceTree = "<group>"; };
+		502B241E1AB45D6E00907076 /* ic_hailandride.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_hailandride.png; path = images/ic_hailandride.png; sourceTree = "<group>"; };
+		502B241F1AB45D6E00907076 /* ic_hammersmithcity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_hammersmithcity.png; path = images/ic_hammersmithcity.png; sourceTree = "<group>"; };
+		502B24201AB45D6E00907076 /* ic_jubilee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_jubilee.png; path = images/ic_jubilee.png; sourceTree = "<group>"; };
+		502B24211AB45D6E00907076 /* ic_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_map.png; path = images/ic_map.png; sourceTree = "<group>"; };
+		502B24221AB45D6E00907076 /* ic_metropolitan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_metropolitan.png; path = images/ic_metropolitan.png; sourceTree = "<group>"; };
+		502B24231AB45D6E00907076 /* ic_northern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_northern.png; path = images/ic_northern.png; sourceTree = "<group>"; };
+		502B24241AB45D6E00907076 /* ic_piccadilly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_piccadilly.png; path = images/ic_piccadilly.png; sourceTree = "<group>"; };
+		502B24251AB45D6E00907076 /* ic_postcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_postcode.png; path = images/ic_postcode.png; sourceTree = "<group>"; };
+		502B24261AB45D6E00907076 /* ic_riverboat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_riverboat.png; path = images/ic_riverboat.png; sourceTree = "<group>"; };
+		502B24271AB45D6E00907076 /* ic_save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_save.png; path = images/ic_save.png; sourceTree = "<group>"; };
+		502B24281AB45D6E00907076 /* ic_victoria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_victoria.png; path = images/ic_victoria.png; sourceTree = "<group>"; };
+		502B243C1AB464E100907076 /* ic_undefined.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_undefined.png; path = images/ic_undefined.png; sourceTree = "<group>"; };
+		502B243E1AB48D6700907076 /* ic_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_disabled.png; path = ShauMapMobile/ic_disabled.png; sourceTree = "<group>"; };
+		502B24401AB4B17200907076 /* MyLocationTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLocationTableViewCell.h; sourceTree = "<group>"; };
+		502B24411AB4B19600907076 /* MyLocationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLocationTableViewCell.m; sourceTree = "<group>"; };
+		504EC80D1A98AA6300948853 /* ShauAlertsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShauAlertsViewController.h; sourceTree = "<group>"; };
+		504EC80E1A98AC9500948853 /* ShauAlertsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShauAlertsViewController.m; sourceTree = "<group>"; };
+		507C91371A9B73F000CD92CA /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		507C913B1A9B7D2F00CD92CA /* SHAU_SPLASH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SHAU_SPLASH.png; path = images/SHAU_SPLASH.png; sourceTree = "<group>"; };
+		509AAE901A84534E00003AC5 /* ShauLatLng.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShauLatLng.h; sourceTree = "<group>"; };
+		509AAE911A84543F00003AC5 /* ShauLatLng.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShauLatLng.m; sourceTree = "<group>"; };
+		50A2A46A1A99015400094CDA /* RouteAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RouteAlert.h; sourceTree = "<group>"; };
+		50A2A46B1A99023F00094CDA /* RouteAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteAlert.m; sourceTree = "<group>"; };
+		50A2A46D1A99324900094CDA /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		50A2A46F1A996F5200094CDA /* TubeLineParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TubeLineParser.h; sourceTree = "<group>"; };
+		50A2A4701A996F8D00094CDA /* TubeLineParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TubeLineParser.m; sourceTree = "<group>"; };
+		50A2A4721A99734200094CDA /* TubeLineStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TubeLineStatus.m; sourceTree = "<group>"; };
+		50A2A4741A99738800094CDA /* TubeLineStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TubeLineStatus.h; sourceTree = "<group>"; };
+		50AEBDBD1A82CA0A00969673 /* ShauMapMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShauMapMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50AEBDC11A82CA0B00969673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50AEBDC21A82CA0B00969673 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50AEBDC41A82CA0B00969673 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50AEBDC51A82CA0B00969673 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50AEBDC81A82CA0B00969673 /* ShauMapMobile.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShauMapMobile.xcdatamodel; sourceTree = "<group>"; };
+		50AEBDCA1A82CA0B00969673 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		50AEBDCB1A82CA0B00969673 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		50AEBDCE1A82CA0B00969673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50AEBDD01A82CA0B00969673 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		50AEBDD31A82CA0B00969673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		50AEBDD91A82CA0B00969673 /* ShauMapMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShauMapMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50AEBDDE1A82CA0B00969673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50AEBDDF1A82CA0B00969673 /* ShauMapMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShauMapMobileTests.m; sourceTree = "<group>"; };
+		50AEBDEA1A82CA5900969673 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		50AEBDEC1A82CA7D00969673 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		50AEBDEE1A82CABE00969673 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		50AEBDF01A82CAC500969673 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		50AEBDF21A82CB3300969673 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		50AEBDF41A82CB3A00969673 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		50AEBDF61A82CB6800969673 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		50AEBDF81A82CB9300969673 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		50AEBDFA1A82CBA800969673 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		50AEBDFC1A82CBBF00969673 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		50AEBDFE1A82CBD200969673 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		50AEBE001A82CBDB00969673 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		50AEBE061A82CFA900969673 /* ShauKmlGeometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShauKmlGeometry.h; sourceTree = "<group>"; };
+		50AEBE071A82D47400969673 /* ShauKmlGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShauKmlGeometry.m; sourceTree = "<group>"; };
+		50AEBE091A82EB6800969673 /* ShauKmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShauKmlParser.m; sourceTree = "<group>"; };
+		50AEBE0B1A82EB8000969673 /* ShauKmlParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShauKmlParser.h; sourceTree = "<group>"; };
+		50C1C94D1A8668630057CF91 /* ShauAppInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShauAppInfoViewController.m; sourceTree = "<group>"; };
+		50C1C94F1A86688F0057CF91 /* ShauAppInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShauAppInfoViewController.h; sourceTree = "<group>"; };
+		50D337DD1AB2368E00986DEE /* ic_action_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_action_search.png; path = images/ic_action_search.png; sourceTree = "<group>"; };
+		50D337DF1AB237DB00986DEE /* ShauSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShauSearchViewController.h; sourceTree = "<group>"; };
+		50D337E01AB2380400986DEE /* ShauSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShauSearchViewController.m; sourceTree = "<group>"; };
+		50D337E31AB256C700986DEE /* ShauSearchResultsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShauSearchResultsViewController.h; sourceTree = "<group>"; };
+		50D337E41AB2572C00986DEE /* ShauSearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShauSearchResultsViewController.m; sourceTree = "<group>"; };
+		50D337E61AB2688300986DEE /* LocationTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationTableViewCell.h; sourceTree = "<group>"; };
+		50D337E71AB268A000986DEE /* LocationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationTableViewCell.m; sourceTree = "<group>"; };
+		50E2174F1A9A8FB300C26F32 /* ShauSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShauSettingsViewController.h; sourceTree = "<group>"; };
+		50E217501A9A900D00C26F32 /* ShauSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShauSettingsViewController.m; sourceTree = "<group>"; };
+		50E217581A9AC21800C26F32 /* ic_action_error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_action_error.png; path = images/ic_action_error.png; sourceTree = "<group>"; };
+		50E217591A9AC21800C26F32 /* ic_action_help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_action_help.png; path = images/ic_action_help.png; sourceTree = "<group>"; };
+		50E2175A1A9AC21800C26F32 /* ic_action_settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_action_settings.png; path = images/ic_action_settings.png; sourceTree = "<group>"; };
+		D61A09B386E666AB3550A03D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D87279D369D538BC99257282 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50AEBDBA1A82CA0A00969673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AEBE011A82CBDB00969673 /* SystemConfiguration.framework in Frameworks */,
+				50AEBDFF1A82CBD200969673 /* QuartzCore.framework in Frameworks */,
+				50AEBDFD1A82CBBF00969673 /* OpenGLES.framework in Frameworks */,
+				50AEBDFB1A82CBA800969673 /* libz.dylib in Frameworks */,
+				50AEBDF91A82CB9300969673 /* libicucore.dylib in Frameworks */,
+				50AEBDF71A82CB6800969673 /* libc++.dylib in Frameworks */,
+				50AEBDF51A82CB3A00969673 /* ImageIO.framework in Frameworks */,
+				50AEBDF31A82CB3300969673 /* GLKit.framework in Frameworks */,
+				50AEBDF11A82CAC500969673 /* CoreText.framework in Frameworks */,
+				50AEBDEF1A82CABE00969673 /* CoreLocation.framework in Frameworks */,
+				50AEBDED1A82CA7D00969673 /* CoreData.framework in Frameworks */,
+				50AEBDEB1A82CA5900969673 /* AVFoundation.framework in Frameworks */,
+				568C91C7E629E2A455B55BCC /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50AEBDD61A82CA0B00969673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50AEBDB41A82CA0A00969673 = {
+			isa = PBXGroup;
+			children = (
+				50A2A46D1A99324900094CDA /* Settings.bundle */,
+				50B36EC01A84256A00EA3777 /* Resources */,
+				50AEBDE91A82CA2900969673 /* Frameworks */,
+				50AEBDBF1A82CA0A00969673 /* ShauMapMobile */,
+				50AEBDDC1A82CA0B00969673 /* ShauMapMobileTests */,
+				50AEBDBE1A82CA0A00969673 /* Products */,
+				711EFCD56E438485240671AB /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		50AEBDBE1A82CA0A00969673 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50AEBDBD1A82CA0A00969673 /* ShauMapMobile.app */,
+				50AEBDD91A82CA0B00969673 /* ShauMapMobileTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50AEBDBF1A82CA0A00969673 /* ShauMapMobile */ = {
+			isa = PBXGroup;
+			children = (
+				50EBDD221C5CDAB5001C9E03 /* domain */,
+				50EBDD211C5CDA64001C9E03 /* parser */,
+				50EBDD201C5CDA06001C9E03 /* view */,
+				50AEBDC41A82CA0B00969673 /* AppDelegate.h */,
+				50AEBDC51A82CA0B00969673 /* AppDelegate.m */,
+				50AEBDCD1A82CA0B00969673 /* Main.storyboard */,
+				50AEBDD01A82CA0B00969673 /* Images.xcassets */,
+				50AEBDD21A82CA0B00969673 /* LaunchScreen.xib */,
+				50AEBDC71A82CA0B00969673 /* ShauMapMobile.xcdatamodeld */,
+				50AEBDC01A82CA0A00969673 /* Supporting Files */,
+			);
+			path = ShauMapMobile;
+			sourceTree = "<group>";
+		};
+		50AEBDC01A82CA0A00969673 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50AEBDC11A82CA0B00969673 /* Info.plist */,
+				50AEBDC21A82CA0B00969673 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50AEBDDC1A82CA0B00969673 /* ShauMapMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				50AEBDDF1A82CA0B00969673 /* ShauMapMobileTests.m */,
+				50AEBDDD1A82CA0B00969673 /* Supporting Files */,
+			);
+			path = ShauMapMobileTests;
+			sourceTree = "<group>";
+		};
+		50AEBDDD1A82CA0B00969673 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50AEBDDE1A82CA0B00969673 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50AEBDE91A82CA2900969673 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50AEBE001A82CBDB00969673 /* SystemConfiguration.framework */,
+				50AEBDFE1A82CBD200969673 /* QuartzCore.framework */,
+				50AEBDFC1A82CBBF00969673 /* OpenGLES.framework */,
+				50AEBDFA1A82CBA800969673 /* libz.dylib */,
+				50AEBDF81A82CB9300969673 /* libicucore.dylib */,
+				50AEBDF61A82CB6800969673 /* libc++.dylib */,
+				50AEBDF41A82CB3A00969673 /* ImageIO.framework */,
+				50AEBDF21A82CB3300969673 /* GLKit.framework */,
+				50AEBDF01A82CAC500969673 /* CoreText.framework */,
+				50AEBDEE1A82CABE00969673 /* CoreLocation.framework */,
+				50AEBDEC1A82CA7D00969673 /* CoreData.framework */,
+				50AEBDEA1A82CA5900969673 /* AVFoundation.framework */,
+				D87279D369D538BC99257282 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50B36EC01A84256A00EA3777 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				502B243E1AB48D6700907076 /* ic_disabled.png */,
+				502B243C1AB464E100907076 /* ic_undefined.png */,
+				502B24161AB45D6E00907076 /* ic_bakerloo.png */,
+				502B24171AB45D6E00907076 /* ic_britishrail.png */,
+				502B24181AB45D6E00907076 /* ic_bus.png */,
+				502B24191AB45D6E00907076 /* ic_central.png */,
+				502B241A1AB45D6E00907076 /* ic_circle.png */,
+				502B241B1AB45D6E00907076 /* ic_delete.png */,
+				502B241C1AB45D6E00907076 /* ic_district.png */,
+				502B241D1AB45D6E00907076 /* ic_dlr.png */,
+				502B241E1AB45D6E00907076 /* ic_hailandride.png */,
+				502B241F1AB45D6E00907076 /* ic_hammersmithcity.png */,
+				502B24201AB45D6E00907076 /* ic_jubilee.png */,
+				502B24211AB45D6E00907076 /* ic_map.png */,
+				502B24221AB45D6E00907076 /* ic_metropolitan.png */,
+				502B24231AB45D6E00907076 /* ic_northern.png */,
+				502B24241AB45D6E00907076 /* ic_piccadilly.png */,
+				502B24251AB45D6E00907076 /* ic_postcode.png */,
+				502B24261AB45D6E00907076 /* ic_riverboat.png */,
+				502B24271AB45D6E00907076 /* ic_save.png */,
+				502B24281AB45D6E00907076 /* ic_victoria.png */,
+				507C913B1A9B7D2F00CD92CA /* SHAU_SPLASH.png */,
+				50E217581A9AC21800C26F32 /* ic_action_error.png */,
+				50E217591A9AC21800C26F32 /* ic_action_help.png */,
+				50E2175A1A9AC21800C26F32 /* ic_action_settings.png */,
+				50D337DD1AB2368E00986DEE /* ic_action_search.png */,
+				507C91371A9B73F000CD92CA /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		50EBDD201C5CDA06001C9E03 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				50D337E31AB256C700986DEE /* ShauSearchResultsViewController.h */,
+				50D337E41AB2572C00986DEE /* ShauSearchResultsViewController.m */,
+				50D337E61AB2688300986DEE /* LocationTableViewCell.h */,
+				50D337E71AB268A000986DEE /* LocationTableViewCell.m */,
+				502B24401AB4B17200907076 /* MyLocationTableViewCell.h */,
+				502B24411AB4B19600907076 /* MyLocationTableViewCell.m */,
+				50E2174F1A9A8FB300C26F32 /* ShauSettingsViewController.h */,
+				50E217501A9A900D00C26F32 /* ShauSettingsViewController.m */,
+				50D337DF1AB237DB00986DEE /* ShauSearchViewController.h */,
+				50D337E01AB2380400986DEE /* ShauSearchViewController.m */,
+				50C1C94F1A86688F0057CF91 /* ShauAppInfoViewController.h */,
+				50C1C94D1A8668630057CF91 /* ShauAppInfoViewController.m */,
+				504EC80D1A98AA6300948853 /* ShauAlertsViewController.h */,
+				504EC80E1A98AC9500948853 /* ShauAlertsViewController.m */,
+				50AEBDCA1A82CA0B00969673 /* MapViewController.h */,
+				50AEBDCB1A82CA0B00969673 /* MapViewController.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		50EBDD211C5CDA64001C9E03 /* parser */ = {
+			isa = PBXGroup;
+			children = (
+				50A2A46F1A996F5200094CDA /* TubeLineParser.h */,
+				50A2A4701A996F8D00094CDA /* TubeLineParser.m */,
+				50AEBE0B1A82EB8000969673 /* ShauKmlParser.h */,
+				50AEBE091A82EB6800969673 /* ShauKmlParser.m */,
+			);
+			name = parser;
+			sourceTree = "<group>";
+		};
+		50EBDD221C5CDAB5001C9E03 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				509AAE901A84534E00003AC5 /* ShauLatLng.h */,
+				509AAE911A84543F00003AC5 /* ShauLatLng.m */,
+				50A2A46A1A99015400094CDA /* RouteAlert.h */,
+				50A2A46B1A99023F00094CDA /* RouteAlert.m */,
+				50A2A4741A99738800094CDA /* TubeLineStatus.h */,
+				50A2A4721A99734200094CDA /* TubeLineStatus.m */,
+				50AEBE061A82CFA900969673 /* ShauKmlGeometry.h */,
+				50AEBE071A82D47400969673 /* ShauKmlGeometry.m */,
+			);
+			name = domain;
+			sourceTree = "<group>";
+		};
+		711EFCD56E438485240671AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D61A09B386E666AB3550A03D /* Pods.debug.xcconfig */,
+				4626C75C1946A5A2A62C7150 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50AEBDBC1A82CA0A00969673 /* ShauMapMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50AEBDE31A82CA0B00969673 /* Build configuration list for PBXNativeTarget "ShauMapMobile" */;
+			buildPhases = (
+				F117EC88D65C1C0E6F8895E0 /* Check Pods Manifest.lock */,
+				50AEBDB91A82CA0A00969673 /* Sources */,
+				50AEBDBA1A82CA0A00969673 /* Frameworks */,
+				50AEBDBB1A82CA0A00969673 /* Resources */,
+				F16F6140DF8752E0150CDA07 /* Embed Pods Frameworks */,
+				345DD821B277F798865627DC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShauMapMobile;
+			productName = ShauMapMobile;
+			productReference = 50AEBDBD1A82CA0A00969673 /* ShauMapMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50AEBDD81A82CA0B00969673 /* ShauMapMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50AEBDE61A82CA0B00969673 /* Build configuration list for PBXNativeTarget "ShauMapMobileTests" */;
+			buildPhases = (
+				50AEBDD51A82CA0B00969673 /* Sources */,
+				50AEBDD61A82CA0B00969673 /* Frameworks */,
+				50AEBDD71A82CA0B00969673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50AEBDDB1A82CA0B00969673 /* PBXTargetDependency */,
+			);
+			name = ShauMapMobileTests;
+			productName = ShauMapMobileTests;
+			productReference = 50AEBDD91A82CA0B00969673 /* ShauMapMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50AEBDB51A82CA0A00969673 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SHAU;
+				TargetAttributes = {
+					50AEBDBC1A82CA0A00969673 = {
+						CreatedOnToolsVersion = 6.1.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					50AEBDD81A82CA0B00969673 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = K482LY84W2;
+						TestTargetID = 50AEBDBC1A82CA0A00969673;
+					};
+				};
+			};
+			buildConfigurationList = 50AEBDB81A82CA0A00969673 /* Build configuration list for PBXProject "ShauMapMobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50AEBDB41A82CA0A00969673;
+			productRefGroup = 50AEBDBE1A82CA0A00969673 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50AEBDBC1A82CA0A00969673 /* ShauMapMobile */,
+				50AEBDD81A82CA0B00969673 /* ShauMapMobileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50AEBDBB1A82CA0A00969673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502B243B1AB45D6E00907076 /* ic_victoria.png in Resources */,
+				502B243D1AB464E100907076 /* ic_undefined.png in Resources */,
+				50A2A46E1A99324900094CDA /* Settings.bundle in Resources */,
+				502B242F1AB45D6E00907076 /* ic_district.png in Resources */,
+				502B242A1AB45D6E00907076 /* ic_britishrail.png in Resources */,
+				502B243F1AB48D6700907076 /* ic_disabled.png in Resources */,
+				507C91381A9B73F000CD92CA /* InfoPlist.strings in Resources */,
+				502B242E1AB45D6E00907076 /* ic_delete.png in Resources */,
+				50AEBDCF1A82CA0B00969673 /* Main.storyboard in Resources */,
+				502B242B1AB45D6E00907076 /* ic_bus.png in Resources */,
+				502B24351AB45D6E00907076 /* ic_metropolitan.png in Resources */,
+				502B242C1AB45D6E00907076 /* ic_central.png in Resources */,
+				50AEBDD41A82CA0B00969673 /* LaunchScreen.xib in Resources */,
+				502B24311AB45D6E00907076 /* ic_hailandride.png in Resources */,
+				502B24331AB45D6E00907076 /* ic_jubilee.png in Resources */,
+				502B24291AB45D6E00907076 /* ic_bakerloo.png in Resources */,
+				502B24381AB45D6E00907076 /* ic_postcode.png in Resources */,
+				50E2175B1A9AC21800C26F32 /* ic_action_error.png in Resources */,
+				50AEBDD11A82CA0B00969673 /* Images.xcassets in Resources */,
+				502B24361AB45D6E00907076 /* ic_northern.png in Resources */,
+				50E2175D1A9AC21800C26F32 /* ic_action_settings.png in Resources */,
+				507C913C1A9B7D2F00CD92CA /* SHAU_SPLASH.png in Resources */,
+				502B24341AB45D6E00907076 /* ic_map.png in Resources */,
+				502B24391AB45D6E00907076 /* ic_riverboat.png in Resources */,
+				502B24301AB45D6E00907076 /* ic_dlr.png in Resources */,
+				502B24371AB45D6E00907076 /* ic_piccadilly.png in Resources */,
+				502B24321AB45D6E00907076 /* ic_hammersmithcity.png in Resources */,
+				502B242D1AB45D6E00907076 /* ic_circle.png in Resources */,
+				502B243A1AB45D6E00907076 /* ic_save.png in Resources */,
+				50E2175C1A9AC21800C26F32 /* ic_action_help.png in Resources */,
+				50D337DE1AB2368E00986DEE /* ic_action_search.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50AEBDD71A82CA0B00969673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		345DD821B277F798865627DC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F117EC88D65C1C0E6F8895E0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F16F6140DF8752E0150CDA07 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50AEBDB91A82CA0A00969673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AEBE0A1A82EB6800969673 /* ShauKmlParser.m in Sources */,
+				50A2A4711A996F8D00094CDA /* TubeLineParser.m in Sources */,
+				50AEBE081A82D47400969673 /* ShauKmlGeometry.m in Sources */,
+				50A2A4731A99734200094CDA /* TubeLineStatus.m in Sources */,
+				50D337E51AB2572C00986DEE /* ShauSearchResultsViewController.m in Sources */,
+				50E217511A9A900D00C26F32 /* ShauSettingsViewController.m in Sources */,
+				50A2A46C1A99023F00094CDA /* RouteAlert.m in Sources */,
+				50AEBDC91A82CA0B00969673 /* ShauMapMobile.xcdatamodeld in Sources */,
+				50C1C94E1A8668630057CF91 /* ShauAppInfoViewController.m in Sources */,
+				509AAE921A84543F00003AC5 /* ShauLatLng.m in Sources */,
+				50D337E11AB2380400986DEE /* ShauSearchViewController.m in Sources */,
+				50AEBDC61A82CA0B00969673 /* AppDelegate.m in Sources */,
+				504EC80F1A98AC9500948853 /* ShauAlertsViewController.m in Sources */,
+				50AEBDCC1A82CA0B00969673 /* MapViewController.m in Sources */,
+				50D337E81AB268A000986DEE /* LocationTableViewCell.m in Sources */,
+				50AEBDC31A82CA0B00969673 /* main.m in Sources */,
+				502B24421AB4B19600907076 /* MyLocationTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50AEBDD51A82CA0B00969673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AEBDE01A82CA0B00969673 /* ShauMapMobileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50AEBDDB1A82CA0B00969673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50AEBDBC1A82CA0A00969673 /* ShauMapMobile */;
+			targetProxy = 50AEBDDA1A82CA0B00969673 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50AEBDCD1A82CA0B00969673 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50AEBDCE1A82CA0B00969673 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50AEBDD21A82CA0B00969673 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50AEBDD31A82CA0B00969673 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50AEBDE11A82CA0B00969673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50AEBDE21A82CA0B00969673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50AEBDE41A82CA0B00969673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D61A09B386E666AB3550A03D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ShauMapMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "SHAU.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		50AEBDE51A82CA0B00969673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4626C75C1946A5A2A62C7150 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ShauMapMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "SHAU.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		50AEBDE71A82CA0B00969673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShauMapMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SHAU.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShauMapMobile.app/ShauMapMobile";
+			};
+			name = Debug;
+		};
+		50AEBDE81A82CA0B00969673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShauMapMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SHAU.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShauMapMobile.app/ShauMapMobile";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50AEBDB81A82CA0A00969673 /* Build configuration list for PBXProject "ShauMapMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50AEBDE11A82CA0B00969673 /* Debug */,
+				50AEBDE21A82CA0B00969673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50AEBDE31A82CA0B00969673 /* Build configuration list for PBXNativeTarget "ShauMapMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50AEBDE41A82CA0B00969673 /* Debug */,
+				50AEBDE51A82CA0B00969673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50AEBDE61A82CA0B00969673 /* Build configuration list for PBXNativeTarget "ShauMapMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50AEBDE71A82CA0B00969673 /* Debug */,
+				50AEBDE81A82CA0B00969673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		50AEBDC71A82CA0B00969673 /* ShauMapMobile.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50AEBDC81A82CA0B00969673 /* ShauMapMobile.xcdatamodel */,
+			);
+			currentVersion = 50AEBDC81A82CA0B00969673 /* ShauMapMobile.xcdatamodel */;
+			path = ShauMapMobile.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 50AEBDB51A82CA0A00969673 /* Project object */;
+}
